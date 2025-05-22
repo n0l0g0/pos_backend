@@ -16,7 +16,7 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - MONGO_URI=mongodb://mongo:27017/pos
+      - MONGO_URI=mongodb://admin:n0l0g0@46.250.228.134:27017/pos?authSource=admin
       - JWT_SECRET=your-secret
     depends_on:
       - mongo
